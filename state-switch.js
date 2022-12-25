@@ -5,6 +5,7 @@ function t(t,e,i,s){var o,n=arguments.length,r=n<3?e:null===s?s=Object.getOwnPro
         style="
         transition-duration: ${this._config.transition_time||500}ms;
         transition-delay: ${this._config.transition_time||500}ms;
+        height: 100%;
         "
       >
         ${Object.keys(this.cards).map((t=>M` <div>${this.cards[t]}</div> `))}
